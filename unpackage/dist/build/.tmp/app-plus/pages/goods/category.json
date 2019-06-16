@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "选择类目",
+  "navigationBarBackgroundColor": "#C5091D",
+  "navigationBarTextStyle": "white",
+  "bounce": "none",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

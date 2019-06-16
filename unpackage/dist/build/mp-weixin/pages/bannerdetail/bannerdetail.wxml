@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="carousel"><image src="{{bannerDetails.image}}" alt class="_img"></image></view><view class="info"><view class="title"><text>{{bannerDetails.title}}</text><text>{{bannerDetails.updatetime}}</text></view></view><view class="evalution"><rich-text nodes="{{contentHtml}}" type="text"></rich-text></view></view>

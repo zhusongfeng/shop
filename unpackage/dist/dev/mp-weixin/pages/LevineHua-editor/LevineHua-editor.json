@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "编辑",
+  "navigationBarBackgroundColor": "#C5091D",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-parse": "/components/uParse/src/wxParse",
+    "qf-alert": "/components/qf-alert"
+  }
+}

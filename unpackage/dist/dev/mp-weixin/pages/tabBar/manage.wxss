@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page, .content {
+  background: #f8f8f8;
+  height: 100%;
+}
+.swiper-box {
+  height: 100%;
+}
+.list-scroll-content {
+  height: 100%;
+}
+.uni-swiper-item {
+  height: auto;
+}
+.goods-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  margin-top: 16rpx;
+}
+.goods-list .goods-list-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 20rpx;
+    text-align: center;
+    background: #fff;
+}
+.goods-list .goods-list-item .goods-img {
+      width: 180rpx;
+      height: 180rpx;
+      -webkit-border-radius: 20rpx;
+              border-radius: 20rpx;
+}
+.goods-list .goods-list-item .goods-right {
+      width: 500rpx;
+      margin-left: 20rpx;
+      text-align: left;
+}
+.goods-list .goods-list-item .goods-right .title {
+        display: inline-block;
+        width: 100%;
+        font-size: 28rpx;
+        color: #333;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+}
+.goods-list .goods-list-item .goods-right .price {
+        display: inline-block;
+        width: 100%;
+        font-size: 28rpx;
+        color: #C5091D;
+        font-size: 28rpx;
+}
+.goods-list .goods-list-item .goods-right .container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+}
+.goods-list .goods-list-item .goods-right .sales-actual, .goods-list .goods-list-item .goods-right .stock {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        font-size: 24rpx;
+        color: #807c87;
+}
+.goods-list .goods-list-item .goods-right .sales-actual .number, .goods-list .goods-list-item .goods-right .stock .number {
+          font-size: 24rpx;
+          color: #333;
+}
+.goods-list .goods-list-item .goods-right .time {
+        display: inline-block;
+        width: 100%;
+        font-size: 24rpx;
+        color: #807c87;
+}
+.goods-list .goods-list-item .goods-right .time .number {
+          font-size: 24rpx;
+          color: #333;
+}
+/* load-more */
+.uni-load-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.uni-load-more__text {
+  font-size: 28rpx;
+  color: #999;
+}
+.uni-load-more__img {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+.uni-load-more__img > view {
+  position: absolute;
+}
+.uni-load-more__img > view view {
+  width: 6px;
+  height: 2px;
+  -webkit-border-top-left-radius: 1px;
+          border-top-left-radius: 1px;
+  -webkit-border-bottom-left-radius: 1px;
+          border-bottom-left-radius: 1px;
+  background: #999;
+  position: absolute;
+  opacity: .2;
+  -webkit-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-animation: load 1.56s ease infinite;
+          animation: load 1.56s ease infinite;
+}
+.uni-load-more__img > view view:nth-child(1) {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 2px;
+  left: 9px;
+}
+.uni-load-more__img > view view:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 11px;
+  right: 0;
+}
+.uni-load-more__img > view view:nth-child(3) {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+  bottom: 2px;
+  left: 9px;
+}
+.uni-load-more__img > view view:nth-child(4) {
+  top: 11px;
+  left: 0;
+}
+.load1,
+.load2,
+.load3 {
+  height: 24px;
+  width: 24px;
+}
+.load2 {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+.load3 {
+  -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+.load1 view:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.load2 view:nth-child(1) {
+  -webkit-animation-delay: .13s;
+          animation-delay: .13s;
+}
+.load3 view:nth-child(1) {
+  -webkit-animation-delay: .26s;
+          animation-delay: .26s;
+}
+.load1 view:nth-child(2) {
+  -webkit-animation-delay: .39s;
+          animation-delay: .39s;
+}
+.load2 view:nth-child(2) {
+  -webkit-animation-delay: .52s;
+          animation-delay: .52s;
+}
+.load3 view:nth-child(2) {
+  -webkit-animation-delay: .65s;
+          animation-delay: .65s;
+}
+.load1 view:nth-child(3) {
+  -webkit-animation-delay: .78s;
+          animation-delay: .78s;
+}
+.load2 view:nth-child(3) {
+  -webkit-animation-delay: .91s;
+          animation-delay: .91s;
+}
+.load3 view:nth-child(3) {
+  -webkit-animation-delay: 1.04s;
+          animation-delay: 1.04s;
+}
+.load1 view:nth-child(4) {
+  -webkit-animation-delay: 1.17s;
+          animation-delay: 1.17s;
+}
+.load2 view:nth-child(4) {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.load3 view:nth-child(4) {
+  -webkit-animation-delay: 1.43s;
+          animation-delay: 1.43s;
+}
+@-webkit-keyframes load {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: .2;
+}
+}
+

@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/goods/addgoods1",
+    "pages/goods/freight",
+    "pages/LevineHua-editor/LevineHua-editor",
+    "pages/goods/category",
+    "pages/goods/manageCategories",
+    "pages/detail/detail",
+    "pages/detail/goodsDetail",
+    "pages/goods/addgoods",
+    "pages/goods/manage",
+    "pages/goods/manage1",
+    "pages/tabBar/manage",
+    "pages/tabBar/home",
+    "pages/login/register",
+    "pages/login/resetpasswd"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#fff"
+  },
+  "usingComponents": {
+    "empty": "/components/empty"
+  }
+}

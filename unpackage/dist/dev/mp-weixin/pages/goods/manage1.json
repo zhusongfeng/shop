@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "批量管理",
+  "navigationBarBackgroundColor": "#C5091D",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

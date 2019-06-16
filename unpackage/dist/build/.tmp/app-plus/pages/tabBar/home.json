@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "titleNView": false,
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

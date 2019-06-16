@@ -1,0 +1,26 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#C5091D",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "多规格",
+        "fontSize": "16",
+        "float": "right",
+        "color": "#fff"
+      },
+      {
+        "text": "单规格",
+        "fontSize": "16",
+        "float": "left",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {
+    "empty": "/components/empty",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

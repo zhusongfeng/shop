@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.container {
+  height: 100vh;
+}
+.container .list-scroll-content {
+    height: 100%;
+}
+.container .collect-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding: 0 30rpx;
+    background: #fff;
+}
+.container .collect-section .collect-item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 48%;
+      padding-bottom: 40rpx;
+}
+.container .collect-section .collect-item:nth-child(2n+1) {
+        margin-right: 4%;
+}
+.container .collect-section .image-wrapper {
+      width: 100%;
+      height: 330rpx;
+      border-radius: 3px;
+      overflow: hidden;
+}
+.container .collect-section .image-wrapper image {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+}
+.container .collect-section .title {
+      font-size: 32rpx;
+      color: #303133;
+      line-height: 80rpx;
+}
+.container .collect-section .price {
+      font-size: 32rpx;
+      color: #fa436a;
+      line-height: 1;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "编辑管理",
+  "navigationBarBackgroundColor": "#C5091D",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "rui-date-picker": "/components/rattenking-dtpicker"
+  }
+}

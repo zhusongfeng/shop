@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"购美汇百货","entryPagePath":"pages/goods/addgoods1.html","page":{"pages/goods/addgoods1.html":{"window":{"navigationBarTitleText":"","navigationBarTextStyle":"white","navigationBarBackgroundColor":"#C5091D","bounce":"none","titleNView":{"buttons":[{"text":"多规格","fontSize":"16","float":"right","color":"#fff"},{"text":"单规格","fontSize":"16","float":"left","color":"#fff"}]},"usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/goods/category.html":{"window":{"navigationBarTitleText":"选择类目","navigationBarBackgroundColor":"#C5091D","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/goods/addgoods.html":{"window":{"navigationBarTitleText":"","navigationBarTextStyle":"white","navigationBarBackgroundColor":"#C5091D","bounce":"none","titleNView":{"buttons":[{"text":"多规格","fontSize":"16","float":"right","color":"#fff"},{"text":"单规格","fontSize":"16","float":"left","color":"#fff"}]},"usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/goods/manage.html":{"window":{"navigationBarTitleText":"批量管理","navigationBarBackgroundColor":"#C5091D","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/tabBar/manage.html":{"window":{"navigationBarTitleText":"批量管理","navigationBarBackgroundColor":"#C5091D","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/tabBar/home.html":{"window":{"navigationBarTextStyle":"black","enablePullDownRefresh":true,"onReachBottomDistance":50,"titleNView":false,"softinputNavBar":"none","usingComponents":{"empty":"/components/empty","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/index/index.html":{"window":{"titleNView":{"type":"transparent","searchInput":{"backgroundColor":"rgba(231, 231, 231,.7)","borderRadius":"16px","placeholder":"请输入地址 如：大钟寺","disabled":true,"placeholderColor":"#606266"},"buttons":[{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"26","color":"#303133","float":"left","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"27","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","navigationBarBackgroundColor":"#f06c7a","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{}}},"pages/login/register.html":{"window":{"navigationBarTitleText":"注册账号","navigationBarBackgroundColor":"#f06c7a","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{}}},"pages/login/resetpasswd.html":{"window":{"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#f06c7a","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{}}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"","titleNView":{"type":"transparent"},"usingComponents":{"share":"/components/share"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#fff"}},"tabBar":{"color":"#333","selectedColor":"#C5091D","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/tabBar/home.html","text":"添加商品"},{"pagePath":"pages/tabBar/manage.html","text":"批量管理"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/goods/addgoods1","pages/goods/category","pages/goods/addgoods","pages/goods/manage","pages/tabBar/manage","pages/tabBar/home","pages/index/index","pages/login/login","pages/login/register","pages/login/resetpasswd","pages/detail/detail"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.9","usingComponents":{"empty":"/components/empty"}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

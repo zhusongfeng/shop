@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/goods/addgoods1",
+    "pages/goods/category",
+    "pages/goods/addgoods",
+    "pages/goods/manage",
+    "pages/tabBar/manage",
+    "pages/tabBar/home",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/resetpasswd",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#C5091D",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home",
+        "text": "添加商品"
+      },
+      {
+        "pagePath": "pages/tabBar/manage",
+        "text": "批量管理"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "购美汇百货",
+  "compilerVersion": "1.9.9",
+  "usingComponents": {
+    "empty": "/components/empty"
+  }
+}

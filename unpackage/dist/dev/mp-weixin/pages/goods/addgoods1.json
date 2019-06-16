@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#C5091D",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "rui-date-picker": "/components/rattenking-dtpicker"
+  }
+}
